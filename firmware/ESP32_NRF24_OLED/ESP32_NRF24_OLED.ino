@@ -8,13 +8,13 @@
 #include <Adafruit_GFX.h>       // Gráficos OLED
 #include <Adafruit_SSD1306.h>   // Control OLED SSD1306
 
-// Pantalla OLED SSD1306         manu lee hasta el final
+// Pantalla OLED SSD1306
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 
-#define OLED_SDA 26
-#define OLED_SCL 27
+#define OLED_SDA 5
+#define OLED_SCL 17
 
 #define OLED_RESET -1
 
@@ -414,6 +414,6 @@ void loop() {
 
     one();
   }
-  //actualiza los datos de la pantalla OLED,   manu si lees esto chupalo
+  //actualiza los datos de la pantalla OLED
   actualizarOLED(state);
 }
