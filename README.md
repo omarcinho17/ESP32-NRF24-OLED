@@ -36,7 +36,7 @@ ESP32-NRF24-OLED/
 │       └── ESP32_NRF24_OLED.ino
 │
 ├── docs/
-│   ├── diagrama_conexion.png
+│   ├── diagrama_esp32_nrf24_oled.jpg
 │   └── oled_ssd1306.md
 │
 ├── README.md
@@ -63,8 +63,8 @@ Conexiones utilizadas:
 |---|---|
 | GND | GND |
 | VCC | 3.3V |
-| SDA | GPIO 26 |
-| SCL | GPIO 27 |
+| SDA | GPIO 5 |
+| SCL | GPIO 17 |
 
 La dirección I2C configurada es:
 
