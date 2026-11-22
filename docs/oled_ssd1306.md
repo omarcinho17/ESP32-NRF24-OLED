@@ -10,10 +10,10 @@ La pantalla OLED utiliza cuatro conexiones:
 |---|---|
 | GND | GND |
 | VCC | 3.3V |
-| SDA | GPIO 26 |
-| SCL | GPIO 27 |
+| SDA | GPIO 5 |
+| SCL | GPIO 17 |
 
-Se utilizan los GPIO 26 y 27 porque los pines GPIO 21 y GPIO 22 ya están ocupados por uno de los módulos NRF24L01.
+Se utilizan los GPIO 5 y 17 porque los pines GPIO 21 y GPIO 22 ya están ocupados por uno de los módulos NRF24L01.
 
 ## Dirección I2C
 
@@ -55,8 +55,8 @@ initOLED();
 Esta función configura la comunicación I2C utilizando:
 
 ```cpp
-SDA = GPIO 26
-SCL = GPIO 27
+SDA = GPIO 5
+SCL = GPIO 17
 ```
 
 y comprueba si la pantalla responde correctamente.
