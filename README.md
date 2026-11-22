@@ -36,7 +36,7 @@ ESP32-NRF24-OLED/
 │       └── ESP32_NRF24_OLED.ino
 │
 ├── docs/
-│   ├── diagrama_conexion.png
+│   ├── diagrama_esp32_nrf24_oled.jpg
 │   └── oled_ssd1306.md
 │
 ├── README.md
